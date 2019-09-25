@@ -26,7 +26,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="Currency Service API",
         default_version='v1',
-        description="For clients to authenticate, the token key should be included in the Authorization HTTP header. For example: \n\n`Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b`",
+        description="For clients to authenticate, the token key should be included in the Authorization HTTP header. For example: \n\n`Authorization: Token 9944b09199c62bcf9418ad846dd0e4bbdfc6ee4b`\n\nTest user: `username: test password: test`",
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
